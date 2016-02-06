@@ -37,6 +37,11 @@ li{
 }
 .table{
 	display: table;
+	height: 100%;
+}
+.table_cell{
+	display: table-cell;
+	vertical-align: middle;
 }
 .bg_page{
 	width: 100%;
@@ -66,6 +71,15 @@ header{
 	display: inline-block;
 	vertical-align: top;
 	margin: 34px 20px;
+	transition: 0.3s linear;
+	-webkit-transition: 0.3s linear;
+	-moz-transition: 0.3s linear;
+	-o-transition: 0.3s linear;
+	-ms-transition: 0.3s linear;
+	cursor: pointer;
+}
+.head_nav li:hover{
+	color: #333;
 }
 /*-------------------------Index-------------------------*/
 .index_slider{
@@ -124,6 +138,7 @@ header{
 	width: 140px;
 	position: fixed;
 	background-color: rgba(255, 255, 255,0.6);
+	z-index: 9999;
 	
 }
 .productos_nav h6{
@@ -135,6 +150,15 @@ header{
 }
 .productos_nav li{
 	margin: 20px 0;
+	transition: 0.3s linear;
+	-webkit-transition: 0.3s linear;
+	-moz-transition: 0.3s linear;
+	-o-transition: 0.3s linear;
+	-ms-transition: 0.3s linear;
+	cursor: pointer;
+}
+.productos_nav li:hover{
+	color: #333;
 }
 .producto_section{
 	margin: 0 140px;
@@ -146,6 +170,7 @@ header{
 .productos_elem:nth-child(odd) .producto_text{
 	float: right;
 	width: 49%;
+	height: 200px;
 }
 .productos_elem:nth-child(odd) .producto_img{
 	float: left;
@@ -155,6 +180,7 @@ header{
 .productos_elem:nth-child(even) .producto_text{
 	float: left;
 	width: 49%;
+	height: 200px;
 }
 .productos_elem:nth-child(even) .producto_img{
 	float: right;
@@ -163,7 +189,7 @@ header{
 }
 .producto_img img{
 	max-width: 100%;
-    max-height: 200px;
+    height: 200px;
 }
 .producto_section h3{
 	clear: both;

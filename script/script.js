@@ -38,6 +38,14 @@ $( document ).ready(function() {
         $(".slider_elemet").eq(next_slide).addClass("active");
     }
 
+
+    $(".calentadores_solares_list").click(function(){
+        $("html, body").stop().animate({ scrollTop: $('.calentadores_solares_tittle').offset().top -50}, 1000);
+    });
+
+    $(".boiler_paso_list").click(function(){
+        $("html, body").stop().animate({ scrollTop: $('.boiler_paso_tittle').offset().top -50}, 1000);
+    });
     
 
 });
