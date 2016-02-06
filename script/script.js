@@ -24,7 +24,7 @@ $( document ).ready(function() {
 
 
     function auto_slider(){
-        slider_move = setInterval(function(){ change_next_slide(); }, 3000);
+        slider_move = setInterval(function(){ change_next_slide(); }, 7000);
     }
     auto_slider();  
     

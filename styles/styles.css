@@ -206,6 +206,46 @@ header{
 /*-------------------------Linea Blanca-------------------------*/
 /*-------------------------Otros-------------------------*/
 /*-------------------------Contacto-------------------------*/
+.contacto_section{
+	padding-bottom: 100px;
+}
+.contacto_section h2{
+	text-align: center;
+	font-size: 50px;
+	padding: 50px 0;
+}
+.contacto_section form{
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+.contacto_section input[type="email"],
+.contacto_section input[type="text"]{
+	width: 384px;
+	margin: 25px 0 0;
+	padding: 7px;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	color: #333;
+	text-shadow: none;
+}
+.contacto_section textarea{
+	width: 384px;
+	margin: 25px 0 0;
+	padding: 7px;
+	border-radius: 15px;
+	resize: none;
+	border: 1px solid #ccc;
+	color: #333;
+	text-shadow: none;
+}
+.contacto_section input[type="submit"]{
+	width: 150px;
+	margin: 25px auto 0;
+	padding: 7px;
+	border: none;
+	border-radius: 15px;
+}
 /*-------------------------Media queries-------------------------*/
 @media ( max-width: 980px ){
 }
